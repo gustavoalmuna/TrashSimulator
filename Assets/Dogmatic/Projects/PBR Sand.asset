@@ -18,66 +18,66 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 2787.4229
-    y: 1250.9822
+    x: 2032.7217
+    y: 1068.3962
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 1114.9691
-    y: 500.39288
-    width: 65
-    height: 12.8
+    x: 2032.7217
+    y: 1068.3962
+    width: 160
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: 8186152518360277665}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 814.9691
-      y: 489.59286
-      width: 9.6
-      height: 9.6
+      x: 1732.7217
+      y: 1086.3962
+      width: 24
+      height: 24
     inputLabel: R
   - isOccupied: 1
     inputtingNode: {fileID: 8186152518360277665}
     outputIndex: 1
     inputRect:
       serializedVersion: 2
-      x: 814.9691
-      y: 502.39288
-      width: 9.6
-      height: 9.6
+      x: 1732.7217
+      y: 1118.3962
+      width: 24
+      height: 24
     inputLabel: G
   - isOccupied: 1
     inputtingNode: {fileID: 8186152518360277665}
     outputIndex: 2
     inputRect:
       serializedVersion: 2
-      x: 814.9691
-      y: 515.1929
-      width: 9.6
-      height: 9.6
+      x: 1732.7217
+      y: 1150.3962
+      width: 24
+      height: 24
     inputLabel: B
   - isOccupied: 1
     inputtingNode: {fileID: 3077379618619687175}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 814.9691
-      y: 527.99286
-      width: 9.6
-      height: 9.6
+      x: 1732.7217
+      y: 1182.3962
+      width: 24
+      height: 24
     inputLabel: A
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 879.9691, y: 494.39285}
+    connectionStartPoint: {x: 1892.7217, y: 1098.3962}
     outputRect:
       serializedVersion: 2
-      x: 870.36914
-      y: 489.59286
-      width: 9.6
-      height: 9.6
+      x: 1868.7217
+      y: 1086.3962
+      width: 24
+      height: 24
     outputLabel: RGBA
     outputDataType: 1
     outputFloat: 0
@@ -111,44 +111,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: -90.93332
-      y: 999.84717
+      x: -845.63367
+      y: 817.26135
       width: 384
       height: 80
     m_contentRect:
       serializedVersion: 2
-      x: -90.93332
-      y: 1033.8477
+      x: -845.63367
+      y: 851.2623
       width: 384
       height: 20
     m_linkButtonRect:
       serializedVersion: 2
-      x: -90.93332
-      y: 1057.8477
+      x: -845.63367
+      y: 875.2623
       width: 384
       height: 20
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 1114.9691
-    y: 500.39288
-    width: 65
-    height: 70.4
+    x: 2032.7217
+    y: 1068.3962
+    width: 160
+    height: 176
   m_expandNodePreview: 0
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 345.77826
-      width: 9.6
-      height: 9.6
-    inputLabel: Displacement Map
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
+    inputLabel: Albedo
   m_outputHasChanged: 0
   m_redoCalculation: 0
 --- !u!114 &-4225493496852302770
@@ -169,78 +169,78 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 800.9914
-    y: 363.40845
+    x: 46.29065
+    y: 180.8247
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 320.39658
-    y: 145.36339
-    width: 67
-    height: 12.8
+    x: 46.29065
+    y: 180.8247
+    width: 160
+    height: 32
   m_inputs: []
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 87.396576, y: 139.36339}
+    connectionStartPoint: {x: -93.70935, y: 210.8247}
     outputRect:
       serializedVersion: 2
-      x: 77.79658
-      y: 134.56339
-      width: 9.6
-      height: 9.6
+      x: -117.70935
+      y: 198.8247
+      width: 24
+      height: 24
     outputLabel: RGBA
     outputDataType: 1
     outputFloat: 0
     outputTexture: {fileID: 0}
     outputTextureBytes: 
   - isOccupied: 0
-    connectionStartPoint: {x: 87.396576, y: 152.16339}
+    connectionStartPoint: {x: -93.70935, y: 242.8247}
     outputRect:
       serializedVersion: 2
-      x: 77.79658
-      y: 147.36339
-      width: 9.6
-      height: 9.6
+      x: -117.70935
+      y: 230.8247
+      width: 24
+      height: 24
     outputLabel: R
     outputDataType: 0
     outputFloat: 0
     outputTexture: {fileID: 0}
     outputTextureBytes: 
   - isOccupied: 0
-    connectionStartPoint: {x: 87.396576, y: 164.9634}
+    connectionStartPoint: {x: -93.70935, y: 274.8247}
     outputRect:
       serializedVersion: 2
-      x: 77.79658
-      y: 160.16339
-      width: 9.6
-      height: 9.6
+      x: -117.70935
+      y: 262.8247
+      width: 24
+      height: 24
     outputLabel: G
     outputDataType: 0
     outputFloat: 0
     outputTexture: {fileID: 0}
     outputTextureBytes: 
   - isOccupied: 0
-    connectionStartPoint: {x: 87.396576, y: 177.7634}
+    connectionStartPoint: {x: -93.70935, y: 306.8247}
     outputRect:
       serializedVersion: 2
-      x: 77.79658
-      y: 172.9634
-      width: 9.6
-      height: 9.6
+      x: -117.70935
+      y: 294.8247
+      width: 24
+      height: 24
     outputLabel: B
     outputDataType: 0
     outputFloat: 0
     outputTexture: {fileID: 0}
     outputTextureBytes: 
   - isOccupied: 0
-    connectionStartPoint: {x: 87.396576, y: 190.5634}
+    connectionStartPoint: {x: -93.70935, y: 338.8247}
     outputRect:
       serializedVersion: 2
-      x: 77.79658
-      y: 185.7634
-      width: 9.6
-      height: 9.6
+      x: -117.70935
+      y: 326.8247
+      width: 24
+      height: 24
     outputLabel: A
     outputDataType: 0
     outputFloat: 0
@@ -274,29 +274,29 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 274.25952
-      y: 192.21643
-      width: 0
-      height: 0
+      x: -777.04553
+      y: -119.60019
+      width: 261
+      height: 80
     m_contentRect:
       serializedVersion: 2
-      x: 274.25952
-      y: 192.21643
-      width: 0
-      height: 0
+      x: -777.04553
+      y: -85.600525
+      width: 261
+      height: 20
     m_linkButtonRect:
       serializedVersion: 2
-      x: 274.25952
-      y: 192.21643
-      width: 0
-      height: 0
+      x: -777.04553
+      y: -61.600586
+      width: 261
+      height: 20
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 320.39658
-    y: 145.36339
-    width: 67
-    height: 83.200005
+    x: 46.29065
+    y: 180.8247
+    width: 160
+    height: 208
   m_expandNodePreview: 1
   m_hasNodePreview: 1
   m_checkForRecursion: 0
@@ -352,36 +352,36 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 1268.1215
-    y: 665.4846
+    x: 511.92706
+    y: 482.901
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 507.2486
-    y: 266.19385
-    width: 73
-    height: 12.8
+    x: 511.92706
+    y: 482.901
+    width: 160
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: 3782217582330508917}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 207.2486
-      y: 255.39384
-      width: 9.6
-      height: 9.6
+      x: 211.92706
+      y: 500.901
+      width: 24
+      height: 24
     inputLabel: In
   m_outputs:
   - isOccupied: 0
-    connectionStartPoint: {x: 280.2486, y: 260.19385}
+    connectionStartPoint: {x: 371.92706, y: 512.901}
     outputRect:
       serializedVersion: 2
-      x: 270.6486
-      y: 255.39384
-      width: 9.6
-      height: 9.6
+      x: 347.92706
+      y: 500.901
+      width: 24
+      height: 24
     outputLabel: Out
     outputDataType: 0
     outputFloat: 0
@@ -407,30 +407,30 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 127.0535
-      y: 295.31134
-      width: 0
-      height: 0
+      x: -466.0957
+      y: 32.828094
+      width: 519
+      height: 80
     m_contentRect:
       serializedVersion: 2
-      x: 127.0535
-      y: 295.31134
-      width: 0
-      height: 0
+      x: -466.0957
+      y: 66.82852
+      width: 519
+      height: 20
     m_linkButtonRect:
       serializedVersion: 2
-      x: 127.0535
-      y: 295.31134
-      width: 0
-      height: 0
+      x: -466.0957
+      y: 90.828735
+      width: 519
+      height: 20
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 507.2486
-    y: 266.19385
-    width: 73
-    height: 32
-  m_expandNodePreview: 0
+    x: 511.92706
+    y: 482.901
+    width: 160
+    height: 80
+  m_expandNodePreview: 1
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
@@ -466,26 +466,26 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 916.95703
-    y: 1504.0814
+    x: 162.25635
+    y: 1321.4962
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 366.7828
-    y: 601.63257
-    width: 64
-    height: 12.8
+    x: 162.25635
+    y: 1321.4962
+    width: 160
+    height: 32
   m_inputs: []
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 130.7828, y: 595.63257}
+    connectionStartPoint: {x: 22.256348, y: 1351.4962}
     outputRect:
       serializedVersion: 2
-      x: 121.18281
-      y: 590.8326
-      width: 9.6
-      height: 9.6
+      x: -1.7436523
+      y: 1339.4962
+      width: 24
+      height: 24
     outputLabel: Output
     outputDataType: 0
     outputFloat: 0
@@ -511,44 +511,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 210.68451
-      y: 262.75043
+      x: -544.01514
+      y: 80.16644
       width: 0
       height: 0
     m_contentRect:
       serializedVersion: 2
-      x: 210.68451
-      y: 262.75043
+      x: -544.01514
+      y: 80.16644
       width: 0
       height: 0
     m_linkButtonRect:
       serializedVersion: 2
-      x: 210.68451
-      y: 262.75043
+      x: -544.01514
+      y: 80.16644
       width: 0
       height: 0
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 366.7828
-    y: 601.63257
-    width: 64
-    height: 32
+    x: 162.25635
+    y: 1321.4962
+    width: 160
+    height: 80
   m_expandNodePreview: 0
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 346.43866
-      y: 560.8695
-      width: 9.6
-      height: 9.6
-    inputLabel: A
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
+    inputLabel: Albedo
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_noiseType: 0
@@ -574,36 +574,36 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 1951.6072
-    y: 1225.3049
+    x: 1196.9095
+    y: 1042.7186
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 780.6429
-    y: 490.12198
-    width: 76
-    height: 12.8
+    x: 1196.9095
+    y: 1042.7186
+    width: 160
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: 1260479048086245298}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 480.64288
-      y: 479.32196
-      width: 9.6
-      height: 9.6
+      x: 896.90955
+      y: 1060.7186
+      width: 24
+      height: 24
     inputLabel: Input
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 556.6429, y: 484.12195}
+    connectionStartPoint: {x: 1056.9095, y: 1072.7186}
     outputRect:
       serializedVersion: 2
-      x: 547.0429
-      y: 479.32196
-      width: 9.6
-      height: 9.6
+      x: 1032.9095
+      y: 1060.7186
+      width: 24
+      height: 24
     outputLabel: Output
     outputDataType: 1
     outputFloat: 0
@@ -629,44 +629,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 1013.1095
-      y: 107.38574
+      x: 258.4088
+      y: -75.19946
       width: 0
       height: 0
     m_contentRect:
       serializedVersion: 2
-      x: 1013.1095
-      y: 107.38574
+      x: 258.4088
+      y: -75.19946
       width: 0
       height: 0
     m_linkButtonRect:
       serializedVersion: 2
-      x: 1013.1095
-      y: 107.38574
+      x: 258.4088
+      y: -75.19946
       width: 0
       height: 0
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 780.6429
-    y: 490.12198
-    width: 76
-    height: 32
+    x: 1196.9095
+    y: 1042.7186
+    width: 160
+    height: 80
   m_expandNodePreview: 0
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 345.77826
-      width: 9.6
-      height: 9.6
-    inputLabel: Displacement Map
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
+    inputLabel: Albedo
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_saturation: 1
@@ -688,66 +688,66 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: -66.59897
-    y: 343.26398
+    x: -821.2992
+    y: 160.68054
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: -26.639587
-    y: 137.30559
-    width: 65
-    height: 12.8
+    x: -821.2992
+    y: 160.68054
+    width: 160
+    height: 32
   m_inputs:
   - isOccupied: 0
     inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: -326.6396
-      y: 126.50559
-      width: 9.6
-      height: 9.6
+      x: -1121.2992
+      y: 178.68054
+      width: 24
+      height: 24
     inputLabel: R
   - isOccupied: 0
     inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: -326.6396
-      y: 139.30559
-      width: 9.6
-      height: 9.6
+      x: -1121.2992
+      y: 210.68054
+      width: 24
+      height: 24
     inputLabel: G
   - isOccupied: 0
     inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: -326.6396
-      y: 152.10559
-      width: 9.6
-      height: 9.6
+      x: -1121.2992
+      y: 242.68054
+      width: 24
+      height: 24
     inputLabel: B
   - isOccupied: 0
     inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: -326.6396
-      y: 164.9056
-      width: 9.6
-      height: 9.6
+      x: -1121.2992
+      y: 274.68054
+      width: 24
+      height: 24
     inputLabel: A
   m_outputs:
   - isOccupied: 0
-    connectionStartPoint: {x: -261.6396, y: 131.30559}
+    connectionStartPoint: {x: -961.2992, y: 190.68054}
     outputRect:
       serializedVersion: 2
-      x: -271.2396
-      y: 126.50559
-      width: 9.6
-      height: 9.6
+      x: -985.2992
+      y: 178.68054
+      width: 24
+      height: 24
     outputLabel: RGBA
     outputDataType: 1
     outputFloat: 0
@@ -781,29 +781,29 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 806.08716
-      y: 50.45462
+      x: 51.386475
+      y: -132.13037
       width: 0
       height: 0
     m_contentRect:
       serializedVersion: 2
-      x: 806.08716
-      y: 50.45462
+      x: 51.386475
+      y: -132.13037
       width: 0
       height: 0
     m_linkButtonRect:
       serializedVersion: 2
-      x: 806.08716
-      y: 50.45462
+      x: 51.386475
+      y: -132.13037
       width: 0
       height: 0
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: -26.639587
-    y: 137.30559
-    width: 65
-    height: 70.4
+    x: -821.2992
+    y: 160.68054
+    width: 160
+    height: 176
   m_expandNodePreview: 0
   m_hasNodePreview: 1
   m_checkForRecursion: 0
@@ -839,26 +839,26 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: -154.86221
-    y: 1232.9812
+    x: -909.5633
+    y: 1050.3948
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: -61.944885
-    y: 493.19247
-    width: 65
-    height: 12.8
+    x: -909.5633
+    y: 1050.3948
+    width: 160
+    height: 32
   m_inputs: []
   m_outputs:
   - isOccupied: 0
-    connectionStartPoint: {x: -296.9449, y: 487.19244}
+    connectionStartPoint: {x: -1049.5632, y: 1080.3948}
     outputRect:
       serializedVersion: 2
-      x: -306.5449
-      y: 482.39246
-      width: 9.6
-      height: 9.6
+      x: -1073.5632
+      y: 1068.3948
+      width: 24
+      height: 24
     outputLabel: Output
     outputDataType: 1
     outputFloat: 0
@@ -884,29 +884,29 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 287.09894
-      y: 252.5545
+      x: -467.60156
+      y: 69.97037
       width: 0
       height: 0
     m_contentRect:
       serializedVersion: 2
-      x: 287.09894
-      y: 252.5545
+      x: -467.60156
+      y: 69.97037
       width: 0
       height: 0
     m_linkButtonRect:
       serializedVersion: 2
-      x: 287.09894
-      y: 252.5545
+      x: -467.60156
+      y: 69.97037
       width: 0
       height: 0
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: -61.944885
-    y: 493.19247
-    width: 65
-    height: 32
+    x: -909.5633
+    y: 1050.3948
+    width: 160
+    height: 80
   m_expandNodePreview: 0
   m_hasNodePreview: 1
   m_checkForRecursion: 0
@@ -949,26 +949,26 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 1133.3495
-    y: 1003.3126
+    x: 49.379395
+    y: 828.5668
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 453.3398
-    y: 401.32504
-    width: 77
-    height: 12.8
+    x: 49.379395
+    y: 828.5668
+    width: 160
+    height: 32
   m_inputs: []
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 230.33981, y: 395.325}
+    connectionStartPoint: {x: -90.620605, y: 858.5668}
     outputRect:
       serializedVersion: 2
-      x: 220.7398
-      y: 390.52502
-      width: 9.6
-      height: 9.6
+      x: -114.620605
+      y: 846.5668
+      width: 24
+      height: 24
     outputLabel: Out
     outputDataType: 0
     outputFloat: 0
@@ -994,29 +994,29 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 229.48032
-      y: 271.95093
+      x: -525.2197
+      y: 89.36682
       width: 0
       height: 0
     m_contentRect:
       serializedVersion: 2
-      x: 229.48032
-      y: 271.95093
+      x: -525.2197
+      y: 89.36682
       width: 0
       height: 0
     m_linkButtonRect:
       serializedVersion: 2
-      x: 229.48032
-      y: 271.95093
+      x: -525.2197
+      y: 89.36682
       width: 0
       height: 0
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 453.3398
-    y: 401.32504
-    width: 77
-    height: 32
+    x: 49.379395
+    y: 828.5668
+    width: 160
+    height: 80
   m_expandNodePreview: 1
   m_hasNodePreview: 1
   m_checkForRecursion: 0
@@ -1027,11 +1027,11 @@ MonoBehaviour:
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 346.43866
-      y: 560.8695
-      width: 9.6
-      height: 9.6
-    inputLabel: A
+      x: 1059.7913
+      y: 544.0283
+      width: 24
+      height: 24
+    inputLabel: Heightmap
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_registeredNode: {fileID: 0}
@@ -1053,66 +1053,66 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 3110.3018
-    y: 827.4457
+    x: 2355.599
+    y: 644.8609
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 1244.1207
-    y: 330.97827
-    width: 85.8
-    height: 12.8
+    x: 2355.599
+    y: 644.8609
+    width: 221
+    height: 32
   m_inputs:
-  - isOccupied: 1
-    inputtingNode: {fileID: 8053623548736585085}
+  - isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 320.17825
-      width: 9.6
-      height: 9.6
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
     inputLabel: Albedo
   - isOccupied: 1
     inputtingNode: {fileID: 3493766704221744089}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 332.97827
-      width: 9.6
-      height: 9.6
+      x: 2055.599
+      y: 694.8609
+      width: 24
+      height: 24
     inputLabel: Normal Map
   - isOccupied: 1
     inputtingNode: {fileID: -845766500887074338}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 345.77826
-      width: 9.6
-      height: 9.6
+      x: 2055.599
+      y: 726.8609
+      width: 24
+      height: 24
     inputLabel: Displacement Map
   - isOccupied: 1
     inputtingNode: {fileID: 8877207709401698653}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 358.57825
-      width: 9.6
-      height: 9.6
+      x: 2055.599
+      y: 758.8609
+      width: 24
+      height: 24
     inputLabel: Ambient Occlusion Map
   - isOccupied: 1
     inputtingNode: {fileID: -5316052396332064641}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 371.37827
-      width: 9.6
-      height: 9.6
+      x: 2055.599
+      y: 790.8609
+      width: 24
+      height: 24
     inputLabel: Specular Map
   m_outputs: []
   m_connectionRelays: []
@@ -1135,44 +1135,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 776.52313
-      y: 62.722137
+      x: 21.822754
+      y: -119.8629
       width: 350
       height: 80
     m_contentRect:
       serializedVersion: 2
-      x: 776.52313
-      y: 96.7222
+      x: 21.822754
+      y: -85.86322
       width: 350
       height: 20
     m_linkButtonRect:
       serializedVersion: 2
-      x: 776.52313
-      y: 120.72217
+      x: 21.822754
+      y: -61.86322
       width: 350
       height: 20
-  m_scrollPos: {x: 0, y: 106}
+  m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 1244.1207
-    y: 330.97827
-    width: 85.8
-    height: 83.200005
+    x: 2355.599
+    y: 644.8609
+    width: 221
+    height: 208
   m_expandNodePreview: 0
   m_hasNodePreview: 0
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 345.77826
-      width: 9.6
-      height: 9.6
-    inputLabel: Displacement Map
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
+    inputLabel: Albedo
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_showResolutionSettings: 1
@@ -1180,8 +1180,8 @@ MonoBehaviour:
   m_exportResolution: 3
   m_outputFormats: 0100000001000000010000000100000001000000
   m_showExportSettings: 1
-  m_exportMaps: 0101010101
-  m_inputOccupied: 0101010101
+  m_exportMaps: 0001010101
+  m_inputOccupied: 0001010101
   m_exportMapNames:
   - Albedo
   - Normal Map
@@ -1223,33 +1223,43 @@ MonoBehaviour:
   - {fileID: 8258688162173681874}
   - {fileID: 8186152518360277665}
   - {fileID: -5316052396332064641}
-  - {fileID: 8053623548736585085}
-  - {fileID: -4225493496852302770}
-  - {fileID: 6282168740135146079}
-  - {fileID: -3713041993394756863}
-  - {fileID: 3782217582330508917}
-  - {fileID: -826834016351871902}
-  - {fileID: 3493766704221744089}
-  - {fileID: 8877207709401698653}
-  - {fileID: -845766500887074338}
   - {fileID: 1260479048086245298}
   - {fileID: -1705107339075136832}
   - {fileID: 8633829781142657314}
   - {fileID: 3077379618619687175}
+  - {fileID: -4225493496852302770}
+  - {fileID: -826834016351871902}
+  - {fileID: 8053623548736585085}
+  - {fileID: 0}
+  - {fileID: 6282168740135146079}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 3782217582330508917}
+  - {fileID: 0}
+  - {fileID: -3713041993394756863}
+  - {fileID: 0}
+  - {fileID: -845766500887074338}
+  - {fileID: 3493766704221744089}
+  - {fileID: 0}
+  - {fileID: 8877207709401698653}
   m_boxSelect: 0
   m_selectionRect:
     serializedVersion: 2
-    x: 579
-    y: 122
-    width: -0
-    height: -0
+    x: 1200
+    y: 459
+    width: 384
+    height: 132
   m_selectedNodes: []
   m_registeredNodes:
   - {fileID: 6282168740135146079}
   - {fileID: -3713041993394756863}
+  - {fileID: 0}
+  - {fileID: 0}
   m_registeredVariableNames:
   - Albedo
   - HeighMap
+  - Albedo(1)
+  - HeighMap(1)
   m_wantsConnection: 0
   m_connectionAwaitingNewNode: 0
   m_movingExistingConnection: 0
@@ -1257,7 +1267,7 @@ MonoBehaviour:
   m_clearAllOutputConnectors: 0
   m_connectionAttemptingNode: {fileID: 0}
   m_outputIndex: 0
-  m_connectionStart: {x: 495.4856, y: 667.0919}
+  m_connectionStart: {x: 175.36029, y: -402.09985}
   m_connectionColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_inverseConnectionAttemptingInput:
     isOccupied: 1
@@ -1271,7 +1281,7 @@ MonoBehaviour:
       height: 13.911572
     inputLabel: B
   m_relayCache: []
-  m_zoomFactor: 0.4
+  m_zoomFactor: 1
   m_enableNodeDragging: 0
   m_canvasOffset: {x: 0, y: 0}
   m_consoleAlpha: 0
@@ -1302,10 +1312,10 @@ MonoBehaviour:
     - Displacement Map
     - Ambient Occlusion
     - Specular Map
-    m_renderObjectRotation: {x: 334.07654, y: 22.289568, z: 353.4662}
+    m_renderObjectRotation: {x: 320.11374, y: 19.762396, z: 350.5552}
     m_lightObjectRotation: {x: 76.77735, y: 330.526, z: 347.20837}
     m_cameraPosition: {x: -0.122083105, y: -0.22833334, z: -3}
-    m_fOV: 20
+    m_fOV: 30
     m_masterNode: {fileID: -826834016351871902}
     m_surfMat: {fileID: 0}
     m_zoomFactor: 1
@@ -1328,26 +1338,26 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 1650.9053
-    y: 1174.5591
+    x: 896.2081
+    y: 991.9728
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 660.3621
-    y: 469.82364
-    width: 67
-    height: 12.8
+    x: 896.2081
+    y: 991.9728
+    width: 160
+    height: 32
   m_inputs: []
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 427.36212, y: 463.8236}
+    connectionStartPoint: {x: 756.2081, y: 1021.9728}
     outputRect:
       serializedVersion: 2
-      x: 417.76212
-      y: 459.02362
-      width: 9.6
-      height: 9.6
+      x: 732.2081
+      y: 1009.9728
+      width: 24
+      height: 24
     outputLabel: Out
     outputDataType: 1
     outputFloat: 0
@@ -1373,44 +1383,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 274.25952
-      y: 192.21643
+      x: -480.44055
+      y: 9.631653
       width: 0
       height: 0
     m_contentRect:
       serializedVersion: 2
-      x: 274.25952
-      y: 192.21643
+      x: -480.44055
+      y: 9.631653
       width: 0
       height: 0
     m_linkButtonRect:
       serializedVersion: 2
-      x: 274.25952
-      y: 192.21643
+      x: -480.44055
+      y: 9.631653
       width: 0
       height: 0
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 660.3621
-    y: 469.82364
-    width: 67
-    height: 32
+    x: 896.2081
+    y: 991.9728
+    width: 160
+    height: 80
   m_expandNodePreview: 1
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 345.77826
-      width: 9.6
-      height: 9.6
-    inputLabel: Displacement Map
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
+    inputLabel: Albedo
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_registeredNode: {fileID: 0}
@@ -1432,46 +1442,46 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 1616.0966
-    y: 1429.1737
+    x: 861.4
+    y: 1246.5889
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 646.43866
-    y: 571.6695
-    width: 70
-    height: 12.8
+    x: 861.4
+    y: 1246.5889
+    width: 160
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: -845766500887074338}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 346.43866
-      y: 560.8695
-      width: 9.6
-      height: 9.6
+      x: 561.4
+      y: 1264.5889
+      width: 24
+      height: 24
     inputLabel: A
   - isOccupied: 1
     inputtingNode: {fileID: 6966432530540256886}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 346.43866
-      y: 573.6695
-      width: 9.6
-      height: 9.6
+      x: 561.4
+      y: 1296.5889
+      width: 24
+      height: 24
     inputLabel: B
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 416.43866, y: 565.6695}
+    connectionStartPoint: {x: 721.4, y: 1276.5889}
     outputRect:
       serializedVersion: 2
-      x: 406.83865
-      y: 560.8695
-      width: 9.6
-      height: 9.6
+      x: 697.4
+      y: 1264.5889
+      width: 24
+      height: 24
     outputLabel: Result
     outputDataType: 0
     outputFloat: 0
@@ -1497,44 +1507,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 604
-      y: 803.5
+      x: -150.70071
+      y: 620.916
       width: 356
       height: 80
     m_contentRect:
       serializedVersion: 2
-      x: 604
-      y: 837.5
+      x: -150.70071
+      y: 654.9152
       width: 356
       height: 20
     m_linkButtonRect:
       serializedVersion: 2
-      x: 604
-      y: 861.5
+      x: -150.70071
+      y: 678.9142
       width: 356
       height: 20
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 646.43866
-    y: 571.6695
-    width: 70
-    height: 44.8
+    x: 861.4
+    y: 1246.5889
+    width: 160
+    height: 112
   m_expandNodePreview: 0
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 346.43866
-      y: 560.8695
-      width: 9.6
-      height: 9.6
-    inputLabel: A
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
+    inputLabel: Albedo
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_mathNodeType: 1
@@ -1559,36 +1569,36 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 2114.4893
-    y: 708.61194
+    x: 1359.7913
+    y: 526.0283
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 845.7957
-    y: 283.4448
-    width: 111
-    height: 12.8
+    x: 1359.7913
+    y: 526.0283
+    width: 223
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: -845766500887074338}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 545.7957
-      y: 272.64478
-      width: 9.6
-      height: 9.6
+      x: 1059.7913
+      y: 544.0283
+      width: 24
+      height: 24
     inputLabel: Heightmap
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 656.7957, y: 277.44476}
+    connectionStartPoint: {x: 1282.7913, y: 556.0283}
     outputRect:
       serializedVersion: 2
-      x: 647.19574
-      y: 272.64478
-      width: 9.6
-      height: 9.6
+      x: 1258.7913
+      y: 544.0283
+      width: 24
+      height: 24
     outputLabel: Normal Map
     outputDataType: 1
     outputFloat: 0
@@ -1614,29 +1624,29 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 561.9176
-      y: 302.49918
+      x: -192.78271
+      y: 119.91501
       width: 0
       height: 0
     m_contentRect:
       serializedVersion: 2
-      x: 561.9176
-      y: 302.49918
+      x: -192.78271
+      y: 119.91501
       width: 0
       height: 0
     m_linkButtonRect:
       serializedVersion: 2
-      x: 561.9176
-      y: 302.49918
+      x: -192.78271
+      y: 119.91501
       width: 0
       height: 0
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 845.7957
-    y: 283.4448
-    width: 111
-    height: 32
+    x: 1359.7913
+    y: 526.0283
+    width: 223
+    height: 80
   m_expandNodePreview: 1
   m_hasNodePreview: 1
   m_checkForRecursion: 0
@@ -1647,11 +1657,11 @@ MonoBehaviour:
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 345.77826
-      width: 9.6
-      height: 9.6
-    inputLabel: Displacement Map
+      x: 1059.7913
+      y: 544.0283
+      width: 24
+      height: 24
+    inputLabel: Heightmap
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_normalStrength: 1
@@ -1676,36 +1686,36 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 1011.15735
-    y: 631.3424
+    x: 256.45667
+    y: 448.7589
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 404.46295
-    y: 252.53697
-    width: 93
-    height: 12.8
+    x: 256.45667
+    y: 448.7589
+    width: 178
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: -4225493496852302770}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 104.46295
-      y: 241.73697
-      width: 9.6
-      height: 9.6
+      x: -43.543335
+      y: 466.7589
+      width: 24
+      height: 24
     inputLabel: Heightmap
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 197.46295, y: 246.53697}
+    connectionStartPoint: {x: 134.45667, y: 478.7589}
     outputRect:
       serializedVersion: 2
-      x: 187.86295
-      y: 241.73697
-      width: 9.6
-      height: 9.6
+      x: 110.456665
+      y: 466.7589
+      width: 24
+      height: 24
     outputLabel: AO
     outputDataType: 0
     outputFloat: 0
@@ -1731,30 +1741,30 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 127.0535
-      y: 295.31134
-      width: 0
-      height: 0
+      x: -426.39746
+      y: -2.453186
+      width: 400
+      height: 80
     m_contentRect:
       serializedVersion: 2
-      x: 127.0535
-      y: 295.31134
-      width: 0
-      height: 0
+      x: -426.39746
+      y: 31.546722
+      width: 400
+      height: 20
     m_linkButtonRect:
       serializedVersion: 2
-      x: 127.0535
-      y: 295.31134
-      width: 0
-      height: 0
+      x: -426.39746
+      y: 55.54669
+      width: 400
+      height: 20
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 404.46295
-    y: 252.53697
-    width: 93
-    height: 32
-  m_expandNodePreview: 0
+    x: 256.45667
+    y: 448.7589
+    width: 178
+    height: 80
+  m_expandNodePreview: 1
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
@@ -1792,36 +1802,36 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 1191.0481
-    y: 402.37115
+    x: 436.349
+    y: 219.78699
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 476.41925
-    y: 160.94847
-    width: 64
-    height: 12.8
+    x: 436.349
+    y: 219.78699
+    width: 160
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: -4225493496852302770}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 176.41925
-      y: 150.14847
-      width: 9.6
-      height: 9.6
+      x: 136.349
+      y: 237.78699
+      width: 24
+      height: 24
     inputLabel: In
   m_outputs:
   - isOccupied: 0
-    connectionStartPoint: {x: 240.41925, y: 154.94847}
+    connectionStartPoint: {x: 296.349, y: 249.78699}
     outputRect:
       serializedVersion: 2
-      x: 230.81924
-      y: 150.14847
-      width: 9.6
-      height: 9.6
+      x: 272.349
+      y: 237.78699
+      width: 24
+      height: 24
     outputLabel: Out
     outputDataType: 1
     outputFloat: 0
@@ -1847,30 +1857,30 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 274.25952
-      y: 192.21643
+      x: -480.44055
+      y: 9.631653
       width: 0
       height: 0
     m_contentRect:
       serializedVersion: 2
-      x: 274.25952
-      y: 192.21643
+      x: -480.44055
+      y: 9.631653
       width: 0
       height: 0
     m_linkButtonRect:
       serializedVersion: 2
-      x: 274.25952
-      y: 192.21643
+      x: -480.44055
+      y: 9.631653
       width: 0
       height: 0
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 476.41925
-    y: 160.94847
-    width: 64
-    height: 32
-  m_expandNodePreview: 0
+    x: 436.349
+    y: 219.78699
+    width: 160
+    height: 80
+  m_expandNodePreview: 1
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
@@ -1906,36 +1916,36 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 1425.9604
-    y: 1535.7426
+    x: 671.2632
+    y: 1353.1575
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 570.3842
-    y: 614.29706
-    width: 64
-    height: 12.8
+    x: 671.2632
+    y: 1353.1575
+    width: 160
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: 8258688162173681874}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 270.38422
-      y: 603.4971
-      width: 9.6
-      height: 9.6
+      x: 371.26318
+      y: 1371.1575
+      width: 24
+      height: 24
     inputLabel: Input
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 334.38422, y: 608.29706}
+    connectionStartPoint: {x: 531.2632, y: 1383.1575}
     outputRect:
       serializedVersion: 2
-      x: 324.7842
-      y: 603.4971
-      width: 9.6
-      height: 9.6
+      x: 507.26318
+      y: 1371.1575
+      width: 24
+      height: 24
     outputLabel: Output
     outputDataType: 0
     outputFloat: 0
@@ -1961,44 +1971,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 211.39935
-      y: 780.7205
+      x: -543.30066
+      y: 598.1363
       width: 287
       height: 80
     m_contentRect:
       serializedVersion: 2
-      x: 211.39935
-      y: 814.72046
+      x: -543.30066
+      y: 632.1364
       width: 287
       height: 20
     m_linkButtonRect:
       serializedVersion: 2
-      x: 211.39935
-      y: 838.72046
+      x: -543.30066
+      y: 656.13544
       width: 287
       height: 20
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 570.3842
-    y: 614.29706
-    width: 64
-    height: 32
+    x: 671.2632
+    y: 1353.1575
+    width: 160
+    height: 80
   m_expandNodePreview: 0
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 346.43866
-      y: 560.8695
-      width: 9.6
-      height: 9.6
-    inputLabel: A
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
+    inputLabel: Albedo
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_min: 0.6
@@ -2021,26 +2031,26 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 1667.053
-    y: 456.53577
+    x: 800.5869
+    y: -5.31427
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 666.8212
-    y: 182.6143
-    width: 67
-    height: 12.8
+    x: 800.5869
+    y: -5.31427
+    width: 160
+    height: 32
   m_inputs: []
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 433.82123, y: 176.6143}
+    connectionStartPoint: {x: 660.5869, y: 24.68573}
     outputRect:
       serializedVersion: 2
-      x: 424.22122
-      y: 171.8143
-      width: 9.6
-      height: 9.6
+      x: 636.5869
+      y: 12.68573
+      width: 24
+      height: 24
     outputLabel: Out
     outputDataType: 1
     outputFloat: 0
@@ -2066,44 +2076,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 304.25958
-      y: 162.21643
+      x: -450.44104
+      y: -20.368591
       width: 0
       height: 0
     m_contentRect:
       serializedVersion: 2
-      x: 304.25958
-      y: 162.21643
+      x: -450.44104
+      y: -20.368591
       width: 0
       height: 0
     m_linkButtonRect:
       serializedVersion: 2
-      x: 304.25958
-      y: 162.21643
+      x: -450.44104
+      y: -20.368591
       width: 0
       height: 0
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 666.8212
-    y: 182.6143
-    width: 67
-    height: 32
+    x: 800.5869
+    y: -5.31427
+    width: 160
+    height: 80
   m_expandNodePreview: 1
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 345.77826
-      width: 9.6
-      height: 9.6
-    inputLabel: Displacement Map
+      x: 1487.3169
+      y: 559.0952
+      width: 24
+      height: 24
+    inputLabel: Destination
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_registeredNode: {fileID: 0}
@@ -2125,75 +2135,75 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 2463.989
-    y: 1214.9532
+    x: 1709.2861
+    y: 1032.3663
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 985.59564
-    y: 485.9813
-    width: 97
-    height: 12.8
+    x: 1709.2861
+    y: 1032.3663
+    width: 188
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: 8633829781142657314}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 685.59564
-      y: 475.18127
-      width: 9.6
-      height: 9.6
+      x: 1409.2861
+      y: 1050.3663
+      width: 24
+      height: 24
     inputLabel: RGBA
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 782.59564, y: 479.98126}
+    connectionStartPoint: {x: 1597.2861, y: 1062.3663}
     outputRect:
       serializedVersion: 2
-      x: 772.99567
-      y: 475.18127
-      width: 9.6
-      height: 9.6
+      x: 1573.2861
+      y: 1050.3663
+      width: 24
+      height: 24
     outputLabel: R
     outputDataType: 0
     outputFloat: 0
     outputTexture: {fileID: 0}
     outputTextureBytes: 
   - isOccupied: 1
-    connectionStartPoint: {x: 782.59564, y: 492.78128}
+    connectionStartPoint: {x: 1597.2861, y: 1094.3663}
     outputRect:
       serializedVersion: 2
-      x: 772.99567
-      y: 487.9813
-      width: 9.6
-      height: 9.6
+      x: 1573.2861
+      y: 1082.3663
+      width: 24
+      height: 24
     outputLabel: G
     outputDataType: 0
     outputFloat: 0
     outputTexture: {fileID: 0}
     outputTextureBytes: 
   - isOccupied: 1
-    connectionStartPoint: {x: 782.59564, y: 505.58127}
+    connectionStartPoint: {x: 1597.2861, y: 1126.3663}
     outputRect:
       serializedVersion: 2
-      x: 772.99567
-      y: 500.78128
-      width: 9.6
-      height: 9.6
+      x: 1573.2861
+      y: 1114.3663
+      width: 24
+      height: 24
     outputLabel: B
     outputDataType: 0
     outputFloat: 0
     outputTexture: {fileID: 0}
     outputTextureBytes: 
   - isOccupied: 0
-    connectionStartPoint: {x: 782.59564, y: 518.3813}
+    connectionStartPoint: {x: 1597.2861, y: 1158.3663}
     outputRect:
       serializedVersion: 2
-      x: 772.99567
-      y: 513.5813
-      width: 9.6
-      height: 9.6
+      x: 1573.2861
+      y: 1146.3663
+      width: 24
+      height: 24
     outputLabel: A
     outputDataType: 0
     outputFloat: 0
@@ -2227,44 +2237,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 1013.1095
-      y: 107.38574
+      x: 258.4088
+      y: -75.19946
       width: 0
       height: 0
     m_contentRect:
       serializedVersion: 2
-      x: 1013.1095
-      y: 107.38574
+      x: 258.4088
+      y: -75.19946
       width: 0
       height: 0
     m_linkButtonRect:
       serializedVersion: 2
-      x: 1013.1095
-      y: 107.38574
+      x: 258.4088
+      y: -75.19946
       width: 0
       height: 0
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 985.59564
-    y: 485.9813
-    width: 97
-    height: 70.4
+    x: 1709.2861
+    y: 1032.3663
+    width: 188
+    height: 176
   m_expandNodePreview: 0
   m_hasNodePreview: 0
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 345.77826
-      width: 9.6
-      height: 9.6
-    inputLabel: Displacement Map
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
+    inputLabel: Albedo
   m_outputHasChanged: 0
   m_redoCalculation: 0
 --- !u!114 &8258688162173681874
@@ -2285,36 +2295,36 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 1118.1698
-    y: 1578.872
+    x: 363.4701
+    y: 1396.2866
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 447.2679
-    y: 631.54877
-    width: 103
-    height: 12.8
+    x: 363.4701
+    y: 1396.2866
+    width: 204
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: -1867008241157614625}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 147.26791
-      y: 620.7488
-      width: 9.6
-      height: 9.6
+      x: 63.470093
+      y: 1414.2866
+      width: 24
+      height: 24
     inputLabel: Input
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 250.26791, y: 625.54877}
+    connectionStartPoint: {x: 267.4701, y: 1426.2866}
     outputRect:
       serializedVersion: 2
-      x: 240.66791
-      y: 620.7488
-      width: 9.6
-      height: 9.6
+      x: 243.4701
+      y: 1414.2866
+      width: 24
+      height: 24
     outputLabel: Output
     outputDataType: 0
     outputFloat: 0
@@ -2340,44 +2350,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: -2.815857
-      y: 803.74866
+      x: -757.51636
+      y: 621.16455
       width: 397
       height: 80
     m_contentRect:
       serializedVersion: 2
-      x: -2.815857
-      y: 837.749
+      x: -757.51636
+      y: 655.16425
       width: 397
       height: 20
     m_linkButtonRect:
       serializedVersion: 2
-      x: -2.815857
-      y: 861.7495
+      x: -757.51636
+      y: 679.1637
       width: 397
       height: 20
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 447.2679
-    y: 631.54877
-    width: 103
-    height: 32
+    x: 363.4701
+    y: 1396.2866
+    width: 204
+    height: 80
   m_expandNodePreview: 0
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 346.43866
-      y: 560.8695
-      width: 9.6
-      height: 9.6
-    inputLabel: A
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
+    inputLabel: Albedo
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_seamlessMappingMode: 0
@@ -2400,36 +2410,36 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 2237.9902
-    y: 1192.5256
+    x: 1483.2908
+    y: 1009.9391
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 895.1961
-    y: 477.01025
-    width: 64
-    height: 12.8
+    x: 1483.2908
+    y: 1009.9391
+    width: 160
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: -1705107339075136832}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 595.1961
-      y: 466.21024
-      width: 9.6
-      height: 9.6
+      x: 1183.2908
+      y: 1027.9391
+      width: 24
+      height: 24
     inputLabel: Input
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 659.1961, y: 471.01022}
+    connectionStartPoint: {x: 1343.2908, y: 1039.9391}
     outputRect:
       serializedVersion: 2
-      x: 649.5961
-      y: 466.21024
-      width: 9.6
-      height: 9.6
+      x: 1319.2908
+      y: 1027.9391
+      width: 24
+      height: 24
     outputLabel: Output
     outputDataType: 1
     outputFloat: 0
@@ -2455,44 +2465,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 1020.6094
-      y: 546.3858
+      x: 265.90894
+      y: 363.80176
       width: 287
       height: 80
     m_contentRect:
       serializedVersion: 2
-      x: 1020.6094
-      y: 580.38586
+      x: 265.90894
+      y: 397.802
       width: 287
       height: 20
     m_linkButtonRect:
       serializedVersion: 2
-      x: 1020.6094
-      y: 604.38574
+      x: 265.90894
+      y: 421.80188
       width: 287
       height: 20
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 895.1961
-    y: 477.01025
-    width: 64
-    height: 32
+    x: 1483.2908
+    y: 1009.9391
+    width: 160
+    height: 80
   m_expandNodePreview: 0
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 345.77826
-      width: 9.6
-      height: 9.6
-    inputLabel: Displacement Map
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
+    inputLabel: Albedo
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_min: 0
@@ -2515,36 +2525,36 @@ MonoBehaviour:
   m_parentProject: {fileID: 11400000}
   m_nodeRect:
     serializedVersion: 2
-    x: 1920.4165
-    y: 933.23145
+    x: 1057.0254
+    y: 701.47534
     width: 160
     height: 32
   m_scaledNodeRect:
     serializedVersion: 2
-    x: 768.1666
-    y: 373.29257
-    width: 93
-    height: 12.8
+    x: 1057.0254
+    y: 701.47534
+    width: 178
+    height: 32
   m_inputs:
   - isOccupied: 1
     inputtingNode: {fileID: -845766500887074338}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 468.16663
-      y: 362.49255
-      width: 9.6
-      height: 9.6
+      x: 757.0254
+      y: 719.47534
+      width: 24
+      height: 24
     inputLabel: Heightmap
   m_outputs:
   - isOccupied: 1
-    connectionStartPoint: {x: 561.1666, y: 367.29254}
+    connectionStartPoint: {x: 935.0254, y: 731.47534}
     outputRect:
       serializedVersion: 2
-      x: 551.56665
-      y: 362.49255
-      width: 9.6
-      height: 9.6
+      x: 911.0254
+      y: 719.47534
+      width: 24
+      height: 24
     outputLabel: AO
     outputDataType: 0
     outputFloat: 0
@@ -2570,44 +2580,44 @@ MonoBehaviour:
     m_mousePos: {x: 0, y: 0}
     m_contextBoxRect:
       serializedVersion: 2
-      x: 432.53674
-      y: 413.91058
+      x: -322.16382
+      y: 231.3263
       width: 0
       height: 0
     m_contentRect:
       serializedVersion: 2
-      x: 432.53674
-      y: 413.91058
+      x: -322.16382
+      y: 231.3263
       width: 0
       height: 0
     m_linkButtonRect:
       serializedVersion: 2
-      x: 432.53674
-      y: 413.91058
+      x: -322.16382
+      y: 231.3263
       width: 0
       height: 0
   m_scrollPos: {x: 0, y: 0}
   m_scaledNodeRectTotal:
     serializedVersion: 2
-    x: 768.1666
-    y: 373.29257
-    width: 93
-    height: 32
+    x: 1057.0254
+    y: 701.47534
+    width: 178
+    height: 80
   m_expandNodePreview: 1
   m_hasNodePreview: 1
   m_checkForRecursion: 0
   m_recursionCandidate: {fileID: 0}
   m_pendingConnector:
-    isOccupied: 1
-    inputtingNode: {fileID: -845766500887074338}
+    isOccupied: 0
+    inputtingNode: {fileID: 0}
     outputIndex: 0
     inputRect:
       serializedVersion: 2
-      x: 944.1207
-      y: 345.77826
-      width: 9.6
-      height: 9.6
-    inputLabel: Displacement Map
+      x: 2055.599
+      y: 662.8609
+      width: 24
+      height: 24
+    inputLabel: Albedo
   m_outputHasChanged: 0
   m_redoCalculation: 0
   m_strength: 5
