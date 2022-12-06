@@ -1,33 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7319353834552750916
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
-  m_Name: DepthOfField
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  focusDistance:
-    overrideState: 1
-    value: 10
-  aperture:
-    overrideState: 1
-    value: 5.07
-  focalLength:
-    overrideState: 1
-    value: 73.1
-  kernelSize:
-    overrideState: 1
-    value: 1
 --- !u!114 &-3515428439917398852
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -166,7 +138,7 @@ MonoBehaviour:
     value: {x: 0.95888376, y: 0.93950945, z: 1, w: -0.08894536}
   gain:
     overrideState: 1
-    value: {x: 0.87714756, y: 0.9331587, z: 1, w: 0.292249}
+    value: {x: 0.98325133, y: 0.9084921, z: 1, w: 0.292249}
   masterCurve:
     overrideState: 1
     value:
@@ -1385,7 +1357,6 @@ MonoBehaviour:
   - {fileID: -3515428439917398852}
   - {fileID: -2008981013955669563}
   - {fileID: 1675808817628911347}
-  - {fileID: -7319353834552750916}
 --- !u!114 &322257810853048422
 MonoBehaviour:
   m_ObjectHideFlags: 3

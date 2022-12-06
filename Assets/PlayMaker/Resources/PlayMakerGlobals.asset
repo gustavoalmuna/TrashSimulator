@@ -143,3 +143,6 @@ MonoBehaviour:
   - AnimTrue
   - SaveObject
   - Next
+  - Cam2
+  - Cam3
+  - Cam1
